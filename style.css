@@ -1,16 +1,165 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.header{
+.header {
     height: 75px;
-    background-color: #F2B1B1;
+    background-color: #F7F7F7;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding: 0 20px;
 }
 
-.logo{
+.logo {
     height: 54px;
+}
+
+
+/* Dropdown Menu */
+
+#menu {
+    z-index: 2;
+    text-align: right;
+}
+
+#menu-bar {
+    width: 27px;
+    height: 14px;
+    margin: 35px 20px 0px 190px;
+    cursor: pointer;
+}
+
+.bar {
+    height: 1px;
+    width: 100%;
+    background-color: #66A1B5;
+    display: block;
+    transition: 0.3s ease;
+}
+
+#bar1 {
+    transform: translateY(-4px);
+}
+
+#bar3 {
+    transform: translateY(4px);
+}
+
+.nav {
+    transition: 0.3s ease;
+    display: none;
+}
+
+.nav ul {
+    padding: 0 22px;
+}
+
+.nav li {
+    list-style: none;
+    padding: 12px 0;
+}
+
+.nav li a {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.nav li a:hover {
+    font-weight: bold;
+}
+
+.menu-bg,
+#menu {
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+
+.menu-bg {
+    z-index: 1;
+    width: 0;
+    height: 0;
+    margin: 30px 20px 0 0;
+    background: radial-gradient(circle, #66A1B5, #6ea7ba);
+    border-radius: 60%;
+    transition: 0.3s ease;
+}
+
+.change {
+    display: block;
+}
+
+.change .bar {
+    background-color: rgb(0, 0, 0);
+}
+
+.change #bar1 {
+    transform: translateY(-4px) rotateZ(-45deg);
+}
+
+.change #bar2 {
+    opacity: 0;
+}
+
+.change #bar3 {
+    transform: translateY(-6px) rotateZ(45deg);
+}
+
+.change-bg {
+    width: 520px;
+    height: 460px;
+    transform: translate(60%, -30%);
+}
+
+
+/* Main */
+
+main {
+    background-color: #E8DCD8;
+    padding: 0 25px;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 15px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+p {
+    padding: 15px 0px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+}
+
+button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 221px;
+    height: 60px;
+}
+
+.comment {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    padding: 17px 50px;
+    margin: 0 auto;
 }
