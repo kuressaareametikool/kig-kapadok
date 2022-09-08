@@ -31,6 +31,16 @@ img {
     padding-left: 10px;
 }
 
+.info {
+    width: 27px;
+}
+.doc {
+    width: 30px;
+}
+.med {
+    width: 30px;
+}
+
 /* Main */
 
 main {
