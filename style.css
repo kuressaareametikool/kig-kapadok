@@ -5,6 +5,10 @@ body {
     background-color: #F8F4F2;
 }
 
+img {
+    display: block;
+}
+
 .header {
     height: 75px;
     background-color: #436075;
