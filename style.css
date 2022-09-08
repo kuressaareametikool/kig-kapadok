@@ -112,14 +112,15 @@ button {
 .petname {
     font-weight: 700;
     line-height: 36px;
+}
 
-    .background {
-        background-image: url(/esilehetaust.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-        min-height: 100vh;
-        background-position: 61% center;
-    }
+.background {
+    background-image: url(/esilehetaust.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-position: 61% center;
+}
 
     .fp-main {
         padding: 25px;
