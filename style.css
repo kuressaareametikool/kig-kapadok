@@ -26,8 +26,9 @@ body {
 }
 
 .splashlogo {
+    width: 200px;
     display: flex;
-    margin: 60% auto;
+    margin: 50% auto;
 }
 
 .splash .display-none {
