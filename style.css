@@ -1,9 +1,12 @@
 html {
     box-sizing: border-box;
-  }
-  *, *:before, *:after {
+}
+
+*,
+*:before,
+*:after {
     box-sizing: inherit;
-  }
+}
 
 body {
     margin: 0;
@@ -106,56 +109,45 @@ button {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-<<<<<<< HEAD
 .petname {
     font-weight: 700;
     line-height: 36px;
-=======
-.comment {
-    display: flex;
-    justify-content: center;
-}
 
-input {
-    padding: 17px 50px;
-    margin: 0 auto;
-}
-.background {
-    background-image: url(/esilehetaust.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-      min-height: 100vh;
-background-position: 61% center;
->>>>>>> d40b0d1244eacd47100dfd74bca21303e624e7be
-}
-.fp-main {
-    padding: 25px;
-    height: calc(100vh - 75px);
-}
-<<<<<<< HEAD
+    .background {
+        background-image: url(/esilehetaust.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 100vh;
+        background-position: 61% center;
+    }
 
-.petinfcont {
-    display: flex;
-    justify-content: center;
-}
+    .fp-main {
+        padding: 25px;
+        height: calc(100vh - 75px);
+    }
 
-.petinfo {
-    display: flex;
-    justify-content: center;
-    width: 253px;
-    height: 132px;
-    border-radius: 30px;
-    background: #ffffff78;
-}
+    .petinfcont {
+        display: flex;
+        justify-content: center;
+    }
 
-#petinfopara {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-=======
-.fp-card {
-    background-color: hsl(0deg 0% 97% / 60%);
-    height: 100%;
-    border-radius: 20px;
->>>>>>> d40b0d1244eacd47100dfd74bca21303e624e7be
-}
+    .petinfo {
+        display: flex;
+        justify-content: center;
+        width: 253px;
+        height: 132px;
+        border-radius: 30px;
+        background: #ffffff78;
+    }
+
+    #petinfopara {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fp-card {
+        background-color: hsl(0deg 0% 97% / 60%);
+        height: 100%;
+        border-radius: 20px;
+    }
