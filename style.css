@@ -23,6 +23,7 @@ body {
     height: 100vh;
     background: #F8F4F2;
     z-index: 200;
+    transition: opacity 0.5s linear;
 }
 
 .splashlogo {
