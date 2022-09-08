@@ -1,3 +1,7 @@
+/*---- global ----*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
 html {
     box-sizing: border-box;
 }
@@ -14,6 +18,56 @@ body {
     font-family: 'Montserrat', sans-serif;
     background-color: #F8F4F2;
 }
+
+main {
+    padding: 0 30px;
+}
+
+h1 {
+    color: #436075;
+    padding: 55px 0 10px;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+    line-height: 36px;
+}
+
+p {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    color: #436075;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0;
+    line-height: 20px;
+}
+
+.btnsect {
+    margin-top: 70px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    font-weight: 400;
+    font-size: 20px;
+    color: #087990;
+    border-radius: 10px;
+    border-style: none;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 221px;
+    height: 60px;
+    background-color: #E9ECEF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/*---- index.html ----*/
 
 .splash {
     position: fixed;
@@ -40,106 +94,19 @@ body {
     width: 100%;
     height: 100vh;
     background: black;
-    z-index: -10;
+    z-index: -100;
     color: white;
     text-align: center;
     line-height: 90vh;
     transition: all 0.5s;
 }
 
-img {
-    display: block;
-}
-
-.header {
-    height: 75px;
-    background-color: #436075;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 25px;
-}
-
-.logo {
-    height: 54px;
-}
-
-.nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-/* Main */
-
-main {
-    padding: 0 25px;
-}
-
-h1 {
-    color: #436075;
-    text-align: center;
-    padding: 35px 0 10px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 30px;
-    margin: 0;
-}
-
-.ravim {
-    font-weight: 600;
-}
-
-.para {
-    padding: 20px 0px;
-    color: #436075;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    margin: 0;
-
-}
-
-.btnsect {
-    margin-top: 30px;
-}
-
-.btn {
-    display: flex;
-    justify-content: center;
-    padding: 15px 0;
-    font-weight: 400;
-    font-size: 20px;
-    color: #087990;
-    border-radius: 10px;
-    border-style: none;
-}
-
-button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 221px;
-    height: 60px;
-    background-color: #E9ECEF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.petname {
-    font-weight: 700;
-    line-height: 36px;
-    padding-bottom: 30px;
-}
-
-.petimg {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 30px;
+a {
+    text-decoration: none;
 }
 
 .background {
-    background-image: url(/esilehetaust.png);
+    background-image: url(assets/esilehetaust.png);
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
@@ -147,28 +114,8 @@ button {
 }
 
 .fp-main {
-    padding: 25px;
-    height: calc(100vh - 75px);
-}
-
-.petinfcont {
-    display: flex;
-    justify-content: center;
-}
-
-.petinfo {
-    display: flex;
-    justify-content: center;
-    width: 253px;
-    height: 132px;
-    border-radius: 30px;
-    background: #ffffff78;
-}
-
-#petinfopara {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 40px 30px;
+    height: calc(100vh);
 }
 
 .fp-card {
@@ -177,31 +124,74 @@ button {
     border-radius: 20px;
 }
 
-.inactive {
-    opacity: 0.6;
-}
-
-#fp-btns {
+.fp-btns {
     padding-top: 20px;
 }
 
 .fp-h1 {
-    padding: 90px 20px 0;
+    padding: 85px 40px;
     font-size: 24px;
+    font-weight: 400;
+    text-align: center;
 }
 
-a {
-    text-decoration: none;
+/*---- haiguslugu.html ----*/
+
+.inactive {
+    opacity: 0.6;
 }
+
+/*---- raviskeem.html ----*/
+
+
+/*---- lemmikuinfo.html ----*/
+
+.petname {
+    font-weight: 700;
+    line-height: 36px;
+    padding-bottom: 10px;
+}
+
+
+/*---- pets.html ----*/
+
+.petslogocontainer {
+    display: flex;
+    justify-content: center;
+    margin: 45px 0;
+
+}
+
+.petslogo {
+    width: 100px;
+}
+
+.petscontainer {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+}
+
+
+/*---- footer ----*/
 
 footer {
-    position: fixed; 
+    position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
-    height: 85px;
+    height: 55px;
+    z-index: 55;
+    background: #F8F4F2;
 }
 
 .nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     box-shadow: 0px -2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.footerfill {
+    height: 50px;
 }
