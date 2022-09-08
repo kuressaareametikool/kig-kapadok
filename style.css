@@ -161,38 +161,50 @@ button {
     background-position: 61% center;
 }
 
-    .fp-main {
-        padding: 25px;
-        height: calc(100vh - 75px);
-    }
+.fp-main {
+    padding: 25px;
+    height: calc(100vh - 75px);
+}
 
-    .petinfcont {
-        display: flex;
-        justify-content: center;
-    }
+.petinfcont {
+    display: flex;
+    justify-content: center;
+}
 
-    .petinfo {
-        display: flex;
-        justify-content: center;
-        width: 253px;
-        height: 132px;
-        border-radius: 30px;
-        background: #ffffff78;
-    }
+.petinfo {
+    display: flex;
+    justify-content: center;
+    width: 253px;
+    height: 132px;
+    border-radius: 30px;
+    background: #ffffff78;
+}
 
-    #petinfopara {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+#petinfopara {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-    .fp-card {
-        background-color: hsl(0deg 0% 97% / 60%);
-        height: 100%;
-        border-radius: 20px;
-    }
+.fp-card {
+    background-color: hsl(0deg 0% 97% / 60%);
+    height: 100%;
+    border-radius: 20px;
+}
 
-    .inactive {
-        opacity: 0.6;
-    }
+.inactive {
+    opacity: 0.6;
+}
 
+#fp-btns {
+    padding-top: 20px;
+}
+
+.fp-h1 {
+    padding: 90px 20px 0;
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+}
