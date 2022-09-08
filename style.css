@@ -190,3 +190,8 @@ button {
         height: 100%;
         border-radius: 20px;
     }
+
+    .inactive {
+        opacity: 0.6;
+    }
+
