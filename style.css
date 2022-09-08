@@ -112,6 +112,13 @@ button {
 .petname {
     font-weight: 700;
     line-height: 36px;
+    padding-bottom: 30px;
+}
+
+.petimg {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
 }
 
 .background {
