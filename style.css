@@ -81,25 +81,15 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .splashlogo {
     width: 50%;
 }
 
-.splash .display-none {
-    position: fixed;
-    opacity: 0;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    background: black;
-    z-index: -100;
-    color: white;
-    text-align: center;
-    line-height: 90vh;
-    transition: all 0.5s;
+.splashbutton {
+    margin-top: 70%;
 }
 
 a {
