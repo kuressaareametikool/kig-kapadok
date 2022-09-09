@@ -78,12 +78,13 @@ button {
     background: #F8F4F2;
     z-index: 200;
     transition: opacity 0.5s linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .splashlogo {
-    width: 200px;
-    display: flex;
-    margin: 50% auto;
+    width: 50%;
 }
 
 .splash .display-none {
