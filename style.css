@@ -25,7 +25,7 @@ main {
 
 h1 {
     color: #436075;
-    padding: 25px 0 10px;
+    padding: 10px 0 10px;
     font-size: 24px;
     font-weight: 700;
     margin: 0;
@@ -43,7 +43,7 @@ p {
 }
 
 .btnsect {
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .btn {
@@ -71,6 +71,7 @@ button {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 20px 13px 0;
 }
 
 .storysize {
@@ -168,6 +169,7 @@ a {
     font-weight: 700;
     line-height: 36px;
     padding-bottom: 10px;
+    padding-left: 11px;
 }
 
 
@@ -176,7 +178,7 @@ a {
 .petslogocontainer {
     display: flex;
     justify-content: center;
-    margin: 45px 0;
+    margin: 40px 0;
 
 }
 
@@ -225,4 +227,13 @@ footer {
     display: flex;
     justify-content: center;
     margin-top: 20%;
+}
+
+.petpic {
+    display: flex;
+    justify-content: center;
+}
+
+.petinfo {
+    padding-left: 11px;
 }
