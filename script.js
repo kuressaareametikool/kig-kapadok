@@ -1,7 +1,5 @@
-const splash = document.querySelector('.splash');
+const splash = document.getElementById("splash");
 
-document.addEventListener('DOMContentLoaded', (e) => {
     setTimeout(() => {
-        document.getElementById("splash").style.display = "none";
+        splash.style.display = "none";
     }, 3000);
-})
