@@ -2,7 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
 
-html {
+*{
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
@@ -49,11 +51,11 @@ p {
 .btn {
     display: flex;
     justify-content: center;
-    padding: 10px 0;
+    margin: 10px;
     font-weight: 400;
     font-size: 20px;
     color: #087990;
-    border-radius: 10px;
+    border-radius: 5px;
     border-style: none;
 }
 
@@ -154,6 +156,13 @@ a {
 
 }
 
+.addpet {
+    display: flex;
+    justify-content: center;
+    padding: 0 40px;
+    margin-top: 30px;
+}
+
 /*---- haiguslugu.html ----*/
 
 .inactive {
@@ -179,7 +188,6 @@ a {
     display: flex;
     justify-content: center;
     margin: 40px 0;
-
 }
 
 .petslogo {
@@ -188,15 +196,43 @@ a {
 
 .petscontainer {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    margin: 20px 0;
+    margin: 10px 0;
 
 }
 
 .indexbtn {
-    width: 170px;
-    height: 50px;
+    display: flex;
+    justify-content: center;
+    width: 180px;
+    height: 60px;
+    margin-left: -30px;
+}
+.calender {
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+}
+
+.petpic {
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+
+.petinfo {
+    padding-left: 11px;
+}
+
+.addpet {
+    background-color: #436075;
+    color:white;
+}
+
+.addpetbutton {
+    max-width: 100%;  
+    z-index: 1;
 }
 
 
@@ -219,21 +255,3 @@ footer {
     box-shadow: 0px -2px 6px rgba(0, 0, 0, 0.1);
 }
 
-.footerfill {
-    height: 50px;
-}
-
-.calender {
-    display: flex;
-    justify-content: center;
-    margin-top: 20%;
-}
-
-.petpic {
-    display: flex;
-    justify-content: center;
-}
-
-.petinfo {
-    padding-left: 11px;
-}
