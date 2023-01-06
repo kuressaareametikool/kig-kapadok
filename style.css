@@ -1,6 +1,8 @@
 /*---- global ----*/
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fredoka One');
+@import url('https://fonts.googleapis.com/css?family=Lato');
 
 *{
     padding: 0;
@@ -17,7 +19,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: Lato;
     background-color: #F8F4F2;
 }
 
@@ -30,8 +32,9 @@ h1 {
     padding: 10px 0 10px;
     font-size: 24px;
     font-weight: 700;
-    margin: 0;
+    margin: 10px;
     line-height: 36px;
+    font-family: Fredoka One;
 }
 
 p {
@@ -92,6 +95,7 @@ header {
 
 .headerfill {
     height: 90px;
+    margin-top: 15px;
 }
 
 /*---- frontpage.html ----*/
@@ -238,7 +242,7 @@ a {
 /*---- ADD ----*/
 @
 input, select, .add-button {
-    font-family: 'Montserrat', sans-serif;
+    font-family: Lato;
     color: #436075;
     font-size: 14px;
 }
@@ -250,7 +254,7 @@ input, select, .add-button {
     justify-content: center;
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: Lato;
     background-color: #F8F4F2;
 }
 
@@ -262,7 +266,7 @@ input, select, .add-button {
 }
 
 h3 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: Fredoka One;
     font-size: 28px;
     text-align: center;
     padding: 10px;
