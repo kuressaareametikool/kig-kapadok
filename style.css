@@ -32,13 +32,13 @@ h1 {
     padding: 10px 0 10px;
     font-size: 24px;
     font-weight: 700;
-    margin: 10px;
+    margin-top: 10px;
     line-height: 36px;
     font-family: Fredoka One;
 }
 
 p {
-    padding-top: 10px;
+    padding-top: 5px;
     padding-bottom: 30px;
     color: #436075;
     font-weight: 400;
@@ -240,7 +240,7 @@ a {
 }
 
 /*---- ADD ----*/
-@
+
 input, select, .add-button {
     font-family: Lato;
     color: #436075;
@@ -259,7 +259,7 @@ input, select, .add-button {
 }
 
 .inner form {
-    width: %;
+    
     padding-top: 36px;
     padding-left: 45px;
     padding-right: 45px;
@@ -340,3 +340,17 @@ footer {
     box-shadow: 0px -2px 6px rgba(0, 0, 0, 0.1);
 }
 
+.petnames {
+    display: flex;
+    justify-content: center;
+    height: 60px;
+}
+
+.logibtn {
+    display: flex;
+    justify-content: center;
+}
+
+.logbtn {
+    margin-left: 30px;
+}
