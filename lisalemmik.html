@@ -8,10 +8,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="petslogocontainer">
+        <img class="petslogo" src="assets/logodark.png" alt="logo">
+    </div>
     <div class="wrapper">
-        <form>
-            <h3>Lemmiku andmed</h3>
-
+        <form>      
             <div class="form-group"></div>
                 <input type="text" placeholder="Nimi" class="form-control">
                 <input type="text" placeholder="Tõug" class="form-control">
@@ -24,6 +25,9 @@
                     <option value="male">Isane</option>
                     <option value="female">Emane</option>
                 </select>
+                <div class="form-group">
+                <label for="picture">Lemmiku pilt: <input id="picture" type="file" name="file" /></label>
+                </div>
             </div>
             <div>
                 <button class="Add-button">Lisa</button>
